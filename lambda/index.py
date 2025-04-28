@@ -53,7 +53,7 @@ def lambda_handler(event, context):
         # ローカルAPIのリクエスト形式
         request_payload = {
             "prompt": prompt,
-            "max_new_tokens": 512,
+            "max_new_tokens": 256,
             "do_sample": True,
             "temperature": 0.7,
             "top_p": 0.9
